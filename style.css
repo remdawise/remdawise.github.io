@@ -6,6 +6,7 @@
     padding-right: 20px;
     position: sticky;
     top: 0;
+    padding-top: 1px;
 }
 
 #helloworld {
@@ -18,8 +19,3 @@
     padding-right: 0px;
 }
 
-.column {
-    float: left;
-    align-content: center;
-    hello
-}
