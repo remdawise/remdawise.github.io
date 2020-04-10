@@ -16,7 +16,21 @@
     font-family: sans-serif;
     color: black;
     text-align: center;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
+body::-webkit-scrollbar-track {
+    backround: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+#smile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+}
