@@ -23,6 +23,10 @@ a:not([data-attr="headerac"]) {
   text-decoration: none;
 }
 
+a:hover{
+    color: #4a4949;
+}
+
 a:not([data-attr="blogt"]) {
     color: white;
     text-decoration: none;
