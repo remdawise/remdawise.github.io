@@ -10,15 +10,7 @@
     margin: auto;
 }
 
-.blogtitle {
-    font-family: sans-serif;
-    font-weight: 52;
-    font-size: 35px;
-    margin: 1px;
-    color: black;
-}
-
-a:not([data-attr="headerac"]) {
+a {
   color: black;
   text-decoration: none;
 }
@@ -27,26 +19,9 @@ a:hover{
     color: #4a4949;
 }
 
-a:not([data-attr="blogt"]) {
+a:not([data-attr="projectt"]) {
     color: white;
     text-decoration: none;
-}
-
-.blogdate {
-    font-family: sans-serif;
-    font-weight: 500px;
-    font-size: 20px;
-    margin: 1px;
-}
-
-.blogpost {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-    background-color: #F4F3F2;
-    margin: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .blog {
@@ -57,4 +32,12 @@ a:not([data-attr="blogt"]) {
     text-align: left;
     margin: 20px;
     padding-left: 20px;
+}
+
+.project {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: purple;
+    color: white;
 }
