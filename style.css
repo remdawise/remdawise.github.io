@@ -31,6 +31,16 @@ a:not([data-attr="downloadn"]) {
     padding-left: 20px;
 }
 
+.protitle {
+    font-size: 100px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    padding-left: 20px;
+}
+
 .project {
     text-align: center;
     font-family: sans-serif;
@@ -49,7 +59,7 @@ a:not([data-attr="downloadn"]) {
     font-weight: 600;
     font-family: sans-serif;
     color: black;
-    text-align: left;
+    text-align: center;
     margin-left: 20px;
     margin-top: 1px;
     padding-left: 1px;
