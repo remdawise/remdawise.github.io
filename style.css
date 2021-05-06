@@ -61,7 +61,7 @@ a:not([data-attr="downloadn"]) {
     color: black;
     text-align: center;
     margin-left: 20px;
-    margin-top: -50px;
+    margin-top: 1px;
     padding-left: 1px;
 }
 
