@@ -96,7 +96,7 @@ a:not([data-attr="downloadn"]) {
     text-align: center;
     font-family: sans-serif;
     font-weight: 600;
-    background-color: lightyellow;
+    background-color: slateblue;
     color: white;
     font-size: 80px;
     margin-left: 25px;
@@ -111,7 +111,7 @@ a:not([data-attr="downloadn"]) {
     font-weight: 600;
     font-family: sans-serif;
     color: black;
-    background-color: slateblue;
+    background-color: lightblue;
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
