@@ -8,6 +8,9 @@
     top: 0;
     font-size: 20px;
     margin-top: 1px;
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 a {
