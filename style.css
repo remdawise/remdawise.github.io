@@ -20,6 +20,10 @@ a:not([data-attr="downloadn"]) {
     text-decoration: none;
 }
 
+body {
+    cursor: cell;
+}
+
 .blog {
     font-size: 100px;
     font-weight: 600;
