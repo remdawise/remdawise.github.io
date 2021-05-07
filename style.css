@@ -143,5 +143,8 @@ body {
     border-radius: 15px;
     display: flex;
     justify-content: center;
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 }
