@@ -22,7 +22,7 @@ a:not([data-attr="downloadn"]) {
 
 body {
     cursor: cell;
-    animation: fadeInAnimation ease 2s;
+    animation: fadeInAnimation ease 1.2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
