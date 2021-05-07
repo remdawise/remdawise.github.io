@@ -10,6 +10,14 @@
     margin-top: 1px;
 }
 
+html, body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+}
+
 a {
   color: black;
   text-decoration: none;
