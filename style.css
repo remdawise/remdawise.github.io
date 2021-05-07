@@ -22,9 +22,6 @@ a:not([data-attr="downloadn"]) {
 
 body {
     cursor: cell;
-    animation: fadeInAnimation ease 1.2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation{
@@ -68,6 +65,9 @@ body {
     margin-right: 25px;
     border-radius: 20px;
     margin-top: -50px;
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .description {
@@ -91,6 +91,9 @@ body {
     border-radius: 15px;
     display: flex;
     justify-content: center;
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 }
 
@@ -105,6 +108,9 @@ body {
     margin-right: 25px;
     border-radius: 20px;
     margin-top: -50px;
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
    
 }
 
@@ -119,6 +125,9 @@ body {
     margin-right: 25px;
     border-radius: 20px;
     margin-top: -50px;
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
    
 }
 
