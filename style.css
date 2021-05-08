@@ -10,6 +10,12 @@
     margin-top: 1px;
 }
 
+.mainpage {
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -65,9 +71,6 @@ body {
     margin-right: 25px;
     border-radius: 20px;
     margin-top: -50px;
-    animation: fadeInAnimation ease 1.2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 .description {
@@ -91,10 +94,6 @@ body {
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    animation: fadeInAnimation ease 1.2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
 }
 
 .unblocked {
@@ -108,9 +107,6 @@ body {
     margin-right: 25px;
     border-radius: 20px;
     margin-top: -50px;
-    animation: fadeInAnimation ease 1.2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
    
 }
 
@@ -125,10 +121,7 @@ body {
     margin-right: 25px;
     border-radius: 20px;
     margin-top: -50px;
-    animation: fadeInAnimation ease 1.2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-   
+
 }
 
 .unlinked {
@@ -143,8 +136,5 @@ body {
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    animation: fadeInAnimation ease 1.2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 
 }
