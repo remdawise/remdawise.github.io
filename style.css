@@ -84,6 +84,16 @@ body {
     padding-left: 1px;
 }
 
+.about {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 20px;
+    margin-top: 1px;
+    padding-left: 1px;
+}
+
 .download {
     font-size: 70px;
     font-weight: 600;
