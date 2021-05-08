@@ -94,6 +94,11 @@ body {
     padding-left: 1px;
 }
 
+.aboutsection {
+    backround-color: whitesmoke;
+    border-radius: 15px;
+}
+
 .download {
     font-size: 70px;
     font-weight: 600;
