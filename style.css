@@ -1,64 +1,15 @@
-#header {
-    color: white;
-    text-align: right;
-    font-family: sans-serif;
-    background-color: red;
-    padding-right: 20px;
-    position: sticky;
-    top: 0;
-    font-size: 20px;
-    margin-top: -1px;
+.lmao {
+  font-family: Sans Serif;
+  font-size: 100px;
+  text-align: center;
+  color: #ece0d1;
+  font-weight: bold;
+  background-color: #967259;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
-.mainpage {
-    animation: fadeInAnimation ease 1.2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+.body {
+  background-color: #ece0d1;
 }
 
-.blog {
-    font-size: 100px;
-    font-weight: 600;
-    font-family: sans-serif;
-    color: black;
-    text-align: left;
-    margin: 0px;
-    margin-bottom: 10px;
-    padding-left: 20px;
-}
-
-.projects {
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 600;
-    background-color: lightcoral;
-    color: white;
-    font-size: 80px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 20px;
-    margin-top: -50px;
-}
-
-.aboutsection {
-    background-color: whitesmoke;
-    border-radius: 15px;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: -50px;
-    padding-bottom: 2px;
-}
-
-.projectx {
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 600;
-    background-color: lightblue;
-    color: white;
-    font-size: 80px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border-radius: 20px;
-    margin-top: -50px;
-   
-}
