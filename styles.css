@@ -57,13 +57,16 @@ a:active {
     justify-content: center;
     display: flex;
     align-items: center;
-    width:100px;
-    margin: 5px;
-    margin-top: 10px;
+    margin: 0;
+    margin-top: 42px;
     height: 1px;
-    background:black;
-    z-index: 1;
+    background: black;
+    z-index: 2; /* Increase z-index to ensure it appears above other elements */
     position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
 .clearfix {
