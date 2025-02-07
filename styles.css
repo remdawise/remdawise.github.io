@@ -120,7 +120,7 @@ hr {
     height: 20px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .image-grid {
         grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on smaller screens */
     }
