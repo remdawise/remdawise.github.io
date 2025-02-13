@@ -127,4 +127,22 @@ hr {
         grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on smaller screens */
         width: 70%;
     }
+    .statement {
+        margin-inline: 25px;
+    }
+}
+
+.statement {
+    font-family: Helvetica;
+    font-style: oblique;
+    font-size: 1rem;
+    color: black;
+    text-align:left;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-inline: 100px;
+    justify-content: center;
+}
+.statement b {
+    font-style: normal;
 }
