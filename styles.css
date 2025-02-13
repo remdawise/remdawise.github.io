@@ -187,6 +187,6 @@ hr {
         margin-inline: 25px;
     }
     .image-grid-portfolio {
-        width: 100%;
+        width: fit-content;
     }
 }
