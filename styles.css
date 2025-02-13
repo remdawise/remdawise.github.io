@@ -122,14 +122,43 @@ hr {
     height: 20px;
 }
 
-@media only screen and (max-width: 900px) {
-    .image-grid {
-        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on smaller screens */
-        width: 70%;
-    }
-    .statement {
-        margin-inline: 25px;
-    }
+.image-grid-portfolio {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr; /* Create 3 equal columns */
+    grid-template-rows: repeat(3, object-fit 1px);
+    gap: 0px; /* Adjust the gap between images as needed */
+    padding: 0px; /* Optional padding around the grid */
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.image-grid-portfolio p {
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: 1rem;
+    font-family: Helvetica;
+    font-style: oblique;
+    color: black;
+    text-align: left;
+    height: 20px;
+}
+.image-grid-portfolio img {
+    display: block;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure images cover the grid cell */
+    padding: 0px;
+    margin: 20px;
+    margin-inline: auto;
+}
+
+.divider {
+    background-color: black;
+    margin-inline: 10px;
+    height: 1px;
 }
 
 .statement {
@@ -145,4 +174,19 @@ hr {
 }
 .statement b {
     font-style: normal;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on smaller screens */
+        width: 70%;
+    }
+    .statement {
+        margin-inline: 25px;
+    }
+    .image-grid-portfolio {
+        width: 100%;
+    }
 }
