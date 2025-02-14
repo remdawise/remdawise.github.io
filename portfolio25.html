@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="dist/css/lightbox.css" rel="stylesheet" />
     <title>rem wise</title>
 </head>
 <body>
@@ -19,12 +20,22 @@
             </ul>
         </div>
         <div class="clearfix"></div>
+        <p class="center-text">** click for fullscreen view **</p>
         <div class="image-grid-portfolio">
-            <img src="artwork/holdme.jpg"><p><b>thing</b><br>Rem Wise, 2024</p>
+            <a href="artwork/holdme.jpg" data-lightbox="image-1"><img src="artwork/holdme.jpg"></a><p><b>thing</b><br>Rem Wise, 2024</p>
             <div class="divider"></div><div class="divider"></div>
-            <img src="artwork/arch.jpg"><p><b>thing</b><br>Rem Wise, 2024</p>
+            <a href="artwork/arch.jpg" data-lightbox="image-2"><img src="artwork/arch.jpg"></a><p><b>thing</b><br>Rem Wise, 2024</p>
             <div class="divider"></div><div class="divider"></div>
-            <img src="artwork/surreal2.jpg"><p><b>thing</b><br>Rem Wise, 2024</p>
+            <a href="artwork/surreal2.jpg" data-lightbox="image-3"><img src="artwork/surreal2.jpg"></a><p><b>thing</b><br>Rem Wise, 2024</p>
+            <div class="divider"></div><div class="divider"></div>
+            <a href="artwork/lookup.jpg" data-lightbox="image-4"><img src="artwork/lookup.jpg"></a><p><b>thing</b><br>Rem Wise, 2024</p>
             <div class="divider"></div><div class="divider"></div>
         </div>
     </div>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+            positionFromTop: 20,
+        })
+    </script>
+</body>
