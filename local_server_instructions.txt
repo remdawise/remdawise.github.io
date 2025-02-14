@@ -1,0 +1,21 @@
+Sure, Here are the basic steps. This short guide uses NodeJS since it's easy to install, cross-platform and useful in many areas of web development.
+
+Go to https://nodejs.org and download NodeJS (I'd do with v7.5.0, It doesn't matter too much).
+
+Install the exe you downloaded. Don't change the default options.
+
+Once installed, Go to the folder your .html files are in.
+
+Shift+Right-click the folder and select 'Open command prompt here'. This should open a command prompt at the folder of your files.
+
+To ensure NodeJS is installed, Run node -v and 'v7.5.0' should show on the command line.
+
+Run the command npm install -g http-server. NPM is the 'node package manager'. We're installed a package named 'http-server'. The '-g' flag indicates the package should be installed globally so it can be used from anywhere on the command line. Wait for this to download the package and install.
+
+Now you can run the command http-server.
+
+This will start a simple http-server in your current folder and it will show some urls to access your server. The first one (Should start with 127.0.0.1) is local to only your machine. The second one (Maybe starts with 192.168 or 10.0) is your local network IP. From devices on the same network as your PC, You can use the second url to access the server.
+
+Note, files named index.html are generally picked up by servers as a default and you don't need to specify the file in the url to access it (For example, http://127.0.0.1:8080/). For other files the file name will need to be specified. For example, If you had a file named cats.html in the folder you started the server you would access it via http://127.0.0.1/cats.html.
+
+If your were looking for more general command line advice, My recommendation is to set up a linux VPS. Just practise with a cheap DigitalOcean VPS (You are charged per hour and can destroy it at any time if you get fed up). The first time I set up a VPS with ubuntu it was painful but, since you are effectively forced to use the command line, you will learn things very quickly and it's great knowledge for future web development stuff. Start by learning how to setup SSH to access the server. Then learn how to setup nginx to serve your HTML website. Then learn how to secure the server. Then learn about using letsencrypt to make your site HTTPS and set it up on a cron-job to automatically renew it. Then set up custom git push-to-deploy. If you're wondering why I'm recommending setting up a linux server while you use Windows, Most of the web tools and software (At least open source stuff), is based on linux/unix like systems. The knowlege you gain on linux will transfer across well for web development on MacOS and windows.
