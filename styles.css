@@ -1,5 +1,10 @@
+body {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
 h1 {
-    color:black;
     margin:2px;
     margin-top: 24px;
     margin-left: 4px;
@@ -10,6 +15,8 @@ h1 {
     font-style: oblique;
     float: left;
     position:fixed;
+    mix-blend-mode:exclusion;
+    color: rgb(185, 0, 0);
 }
 
 
@@ -132,7 +139,7 @@ hr {
     padding: 0px; /* Optional padding around the grid */
     width: 60%;
     margin-inline: auto;
-    margin-top: 0px;
+    margin-top: 30px;
     margin-bottom: 100px;
 }
 .image-grid-portfolio p {
