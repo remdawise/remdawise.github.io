@@ -93,10 +93,10 @@ hr {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Create 3 equal columns */
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
     gap: 0px; /* Adjust the gap between images as needed */
     padding: 10px; /* Optional padding around the grid */
-    width: 40%;
+    width: 70%;
     margin-inline: auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -121,7 +121,7 @@ hr {
 
 .image-grid p {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     font-size: 1rem;
     font-family: Helvetica;
     font-style: oblique;
@@ -201,6 +201,34 @@ hr {
     to {
         opacity: 1;
     }
+}
+
+.header-lang {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    font-style: oblique;
+    font-weight: 1000;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+}
+
+.subheader-lang {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    font-style:normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
