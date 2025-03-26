@@ -231,6 +231,14 @@ hr {
     text-align: center;
 }
 
+.glide img {
+    width:100%;
+    margin-inline: auto;
+    float: center;
+    margin-top: 50px;
+    margin-inline: auto;
+}
+
 @media only screen and (max-width: 900px) {
     .image-grid {
         grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on smaller screens */
