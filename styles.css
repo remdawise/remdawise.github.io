@@ -206,7 +206,7 @@ hr {
 }
 
 .header-lang {
-    margin-top: 75px;
+    margin-top: 50px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
@@ -220,7 +220,7 @@ hr {
 }
 
 .subheader-lang {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
@@ -249,7 +249,7 @@ hr {
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure images cover the grid cell */
     padding: 0px;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-inline: auto;
 }
 
@@ -264,6 +264,30 @@ hr {
     margin-bottom: 100px;
 }
 
+.lang-text {
+    margin-inline: 20px;
+    font-size: 1rem;
+    font-family: Helvetica;
+    font-style: oblique;
+    color: black;
+    text-align: left;
+    height: 20px;
+    justify-content: center;
+}
+
+.lang-body {
+    margin-inline: 200px;
+}
+
+.lang-annotation {
+    font-size: .8rem;
+    font-family: Helvetica;
+    color: gray;
+    text-align: left;
+    height: 0px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
 
 @media only screen and (max-width: 900px) {
     .image-grid {
@@ -275,5 +299,13 @@ hr {
     }
     .image-grid-portfolio {
         width: fit-content;
+    }
+
+    .lang-body {
+        margin-inline: 80px;
+    }
+
+    .lang-text {
+        font-size: .7rem;
     }
 }
