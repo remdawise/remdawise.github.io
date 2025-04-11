@@ -217,7 +217,29 @@ hr {
     font-size: 8vw;
     color: black;
     text-align: center;
+    animation: 1s fadeInUp;
 }
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 
 .subheader-lang {
     margin-top: 0px;
@@ -231,6 +253,10 @@ hr {
     font-size: 1rem;
     color: black;
     text-align: center;
+    opacity: 0;
+    animation: fadeIn 3s;
+    animation-delay: 0.5s; /* Delay the animation */
+    animation-fill-mode: forwards; /* Keep the final state of the animation */
 }
 
 .lang-grid img {
@@ -239,7 +265,7 @@ hr {
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Ensure images cover the grid cell */
     padding: 0px;
-    margin: 5px;
+    margin: 0px;
     margin-inline: auto;
 }
 
@@ -257,18 +283,18 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Create 3 equal columns */
     gap: 0px; /* Adjust the gap between images as needed */
-    padding: 0px; /* Optional padding around the grid */
+    padding-top: 10px; /* Optional padding around the grid */
     width: 100%;
     margin-inline: auto;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 100px;
 }
 
 .lang-text {
     margin-inline: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: Helvetica;
-    font-style: oblique;
+    font-style: normal;
     color: black;
     text-align: left;
     height: 20px;
@@ -306,6 +332,27 @@ hr {
     }
 
     .lang-text {
-        font-size: .7rem;
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on smaller screens */
+        width: 70%;
+    }
+    .statement {
+        margin-inline: 25px;
+    }
+    .image-grid-portfolio {
+        width: fit-content;
+    }
+
+    .lang-body {
+        margin-inline: 80px;
+    }
+
+    .lang-text {
+        font-size: 2.2vw;
     }
 }
